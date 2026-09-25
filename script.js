@@ -9,22 +9,24 @@
 
         const skillsData = {
             frontend: [
-                { name: "React / Next.js", level: 95, icon: "fa-brands fa-react" },
+                { name: "React ", level: 90, icon: "fa-brands fa-react" },
+                { name: "Javascript ", level: 95, icon: "fa-brands fa-js" },
+                { name: "HTML ", level: 95, icon: "fa-brands fa-html5" },
+                { name: "CSS ", level: 95, icon: "fa-brands fa-css3-alt" },
                 { name: "TypeScript", level: 90, icon: "fa-solid fa-code" },
-                { name: "Tailwind CSS", level: 98, icon: "fa-solid fa-palette" },
-                { name: "Vue.js", level: 82, icon: "fa-brands fa-vuejs" },
-                { name: "WebGL / Three.js", level: 75, icon: "fa-solid fa-cube" }
+                { name: "Tailwind CSS", level: 68, icon: "fa-solid fa-palette" }
+                
             ],
             backend: [
-                { name: "Node.js / Express", level: 88, icon: "fa-brands fa-node-js" },
-                { name: "Python / FastAPI", level: 85, icon: "fa-brands fa-python" },
-                { name: "PostgreSQL / Prisma", level: 80, icon: "fa-solid fa-database" },
-                { name: "GraphQL", level: 78, icon: "fa-solid fa-network-wired" }
+                { name: "Node.js", level: 88, icon: "fa-brands fa-node-js" },
+                { name: "Python", level: 85, icon: "fa-brands fa-python" },
+                { name: "java", level: 80, icon: "fa-brands fa-java" },
+                { name: "PostgreSQL", level: 80, icon: "fa-solid fa-database" },
+                { name: "SQL", level: 80, icon: "fa-solid fa-database" }
+                
             ],
             tools: [
-                { name: "Docker & Kubernetes", level: 75, icon: "fa-brands fa-docker" },
-                { name: "Git & CI/CD", level: 92, icon: "fa-brands fa-git-alt" },
-                { name: "AWS Cloud Services", level: 80, icon: "fa-brands fa-aws" },
+                { name: "Git", level: 92, icon: "fa-brands fa-git-alt" },
                 { name: "Figma UI Design", level: 85, icon: "fa-brands fa-figma" }
             ]
         };
